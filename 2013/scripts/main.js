@@ -1,5 +1,25 @@
 (function(){
 
+  // old contents collapsible
+  var collapsibles = $('.report, #how-to-join');
+  collapsibles.append(
+      $('<p>（タイトルをクリックで表示します）</p>').hide().css('text-align', 'center')
+  );
+  collapsibles.find('>:not(h1)').toggle();
+  collapsibles.find('>h1').on('click', function(){
+    $(this).parent().find('>:not(h1)').toggle();
+  });
+
+  // additional informations
+  var events = $('.event');
+  for ( var i = 0, len = events.length; i < len; i++ ) {
+    var evt = $(events[i]);
+    var res = evt.find('.results li');
+    if ( res.length ) {
+      evt.append('<div class="count-bubble">' + res.length + '</div>');
+    }
+  }
+
   // scroll
   $(document).on('click', 'a[href^=#]', function(e){
     var link = $(this),
@@ -13,7 +33,6 @@
       });
     }
   });
-
   // display events count and atendees count
   var totalEvents = $('#total-events'),
       totalAtendees = $('#total-atendees'),
@@ -24,6 +43,14 @@
   }
   totalEvents.text(events.length);
   totalAtendees.text(atendeeCount);
+
+  // fancy zoom
+  $('a.fancyZoom').fancyZoom({
+    width: 800,
+    // positionFromCenter: -200,
+    directory: 'images'
+  });
+
 
   if ( window.matchMedia("(max-width: 601px)").matches ) {
     return;
