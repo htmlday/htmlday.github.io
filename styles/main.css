@@ -702,7 +702,7 @@ main .desctription section {
   #map {
     display: none;
   }
-  #staff_list {
+  /*#staff_list {
     width: auto;
   }
   #staff_list li {
@@ -750,7 +750,7 @@ main .desctription section {
   #staff_list li .staff-info iframe {
     margin: auto;
     display: block;
-  }
+  }*/
   aside.sns {
     width: 100%;
     text-align: center;
@@ -831,7 +831,7 @@ main .desctription section {
   font-size: 0.9em;
 }
 
-.event > div{
+.event .inner-block {
   padding-left: 136px;
 }
 .event-list p {
@@ -844,7 +844,7 @@ main .desctription section {
 .event-logo {
   width: 120px;
   float: left;
-  margin: 0;
+  margin: 0 1em 0 0;
 }
 .event-title {
   font-size: 1.1em;
@@ -944,6 +944,17 @@ main .desctription section {
   font-style: normal;
 }
 
+.catch {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 0;
+  color: #5f3a0d;
+}
+
+.mobile-link {
+  display: none;
+}
+
 @media only screen and (max-width: 601px) {
   .header_wrapper {
     -webkit-background-size: cover;
@@ -965,14 +976,18 @@ main .desctription section {
     font-size: 2em;
     font-style: normal;
   }
+  .event .inner-block {
+   padding-left: 0; 
+    display: inline;
+  }
+  .catch {
+    font-size: 1em;
+  }
+  .mobile-link {
+    display: block;
+  }
 }
 
-.catch {
-  font-size: 1.5em;
-  text-align: center;
-  margin-top: 0;
-  color: #5f3a0d;
-}
 
 
 
