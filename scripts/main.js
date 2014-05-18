@@ -4,13 +4,9 @@
   $(document).on('click', 'a[href^=#]', function(e){
     var link = $(this),
         target = $(link.attr('href'));
-    if ( target.length === 1 && !link.hasClass('fancyZoom') ) {
+    if ( target.length === 1 ) {
       e.preventDefault();
-      $('body').animate({scrollTop: target.offset().top}, 400, function(){
-        if ( link.hasClass('from-map') ) {
-          target.find('.fancyZoom').trigger('click');
-        }
-      });
+      $('body').animate({scrollTop: target.offset().top}, 400);
     }
   });
 

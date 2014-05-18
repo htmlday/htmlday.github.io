@@ -235,15 +235,16 @@ main .desctription section {
 
 }
 .summary .summary-detail dl {
-  padding: 2em 2em 0;
+  padding: 1em 2em 0;
   margin: 0;
 }
 .summary .summary-detail dt {
   clear: left;
   float: left;
-  padding: 1.8em .8em 0 0;
+  padding: 1.9em .8em 0 0;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.5em;
+  line-height: 1.3;
 }
 .summary .summary-detail dd {
   margin: 0;
@@ -251,7 +252,7 @@ main .desctription section {
   font-weight: bold;
   color: #e7594f;
   text-align: right;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 .summary .summary-detail .entry-button-wrapper {
   padding: 0 2em 2em;
@@ -350,6 +351,11 @@ main .desctription section {
 .cooperation-list li a .cooperation-logo-wrapper img {
   display: block;
   margin: auto;
+  width: 200px;
+}
+.host {
+  border-bottom: none;
+  padding-bottom: 1em;
 }
 .sponsor-list li a .sponsor-name,
 .cooperation-list li a .sponsor-name,
@@ -821,6 +827,13 @@ main .desctription section {
   margin: 0;
 }
 
+.event {
+  font-size: 0.9em;
+}
+
+.event > div{
+  padding-left: 136px;
+}
 .event-list p {
   margin: 0.4em 0;
   line-height: 1.6;
@@ -831,28 +844,26 @@ main .desctription section {
 .event-logo {
   width: 120px;
   float: left;
-  margin: 0 1em 0 0;
+  margin: 0;
 }
 .event-title {
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: bold;
-}
-.event-detail {
-  font-size: 0.9em;
 }
 .event-summary {
   margin: 0;
 }
 .event-summary dt, .event-summary dd {
-  font-size: 0.9em;
   display: inline;
   margin: 0;
 }
-.event-summary dt {
-  margin-left: 1em;
+.event-summary dt::before {
+  content: ' | ';
+  /*margin-left: 1em;*/
 }
-.event-summary dt:first-child {
-  margin-left: 0;
+.event-summary dt:first-child::before {
+  content: '';
+  /*margin-left: 0;*/
 }
 
 .region {
@@ -956,7 +967,12 @@ main .desctription section {
   }
 }
 
-
+.catch {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 0;
+  color: #5f3a0d;
+}
 
 
 
