@@ -862,3 +862,107 @@ main .desctription section {
   border-bottom: 1px solid #ddd;
   margin: 0.8em 0 0.4em;
 }
+
+/*秋葉追加*/
+
+.gnav a {
+  font-family: "I-OTF-UD新聞明朝Pro Mp";
+}
+
+.header_wrapper {
+  padding-top: 80px;
+  border-top: none;
+  background: url(../images/mainimage_light.png) center -60px no-repeat,
+  url(../images/mainimage_flag.png) center 20px no-repeat #588d73;
+}
+
+.header_wrapper .powered_html5j {
+  margin-top: 0;
+}
+.h_group {
+}
+
+.header_wrapper .date {
+  top: 0;
+}
+.header_wrapper .date time {
+  font-family: 'Anton', sans-serif;
+  text-shadow: 0 0 10px #fff, 0 0 10px #fff;
+  color: #c1272d;
+}
+.header_wrapper .date span {
+  font-size: 80%;
+}
+
+.subcatch {
+  margin: 0;
+  position: relative;
+}
+.subcatch p {
+  margin: 0;
+  line-height: 1.2;
+  display: block;
+  margin: auto;
+}
+.subcatch .dodon {
+  line-height: 1;
+  letter-spacing: .1em;
+  font-family: "F+UD-筑紫明朝 E";
+  color: #EDC32B;
+  text-shadow: 0 0 5px #512812, 0 0 10px #512812, 0 0 10px #512812;
+  text-align: center;
+  font-size: 70px;
+}
+
+.subcatch .dodon em {
+  font-size: 100px;
+  font-style: normal;
+}
+
+.subcatch .all_japan {
+  letter-spacing: .1em;
+  font-family: "FOT-ニューロダン Pro B";
+  color: #c1272d;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 10px #fff;
+  text-align: center;
+  font-size: 70px;
+}
+
+.subcatch .all_japan em {
+  font-size: 100px;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 601px) {
+  .header_wrapper {
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .subcatch .dodon {
+    font-size: 1.5em;
+  }
+
+  .subcatch .dodon em {
+    font-size: 1.7em;
+    font-style: normal;
+  }
+  .subcatch .all_japan {
+    font-size: 1.8em;
+  }
+
+  .subcatch .all_japan em {
+    font-size: 2em;
+    font-style: normal;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
