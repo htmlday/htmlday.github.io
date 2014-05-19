@@ -955,6 +955,27 @@ main .desctription section {
   display: none;
 }
 
+/*
+ Google Mapsを埋め込むまでの一時的対応
+*/
+
+.summary .summary-detail {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  box-sizing: border-box;
+  float: none;
+  border: 2em solid #a5d096;
+}
+.summary .summary-detail dt, .summary .summary-detail dd {
+  /*float: none;*/
+}
+
+/*
+ Google Mapsを埋め込むまでの一時的対応　ここまで
+*/
+
 @media only screen and (max-width: 601px) {
   .header_wrapper {
     -webkit-background-size: cover;
@@ -963,21 +984,47 @@ main .desctription section {
   .subcatch .dodon {
     font-size: 1.5em;
   }
-
+  .h_group h1 {
+    margin: 0;
+    font-size: 100%;
+  }
+  .h_group h1 img {
+    vertical-align: bottom;
+  }
+  .summary .summary-detail {
+    padding-top: 1em;
+  }
+  .summary .summary-detail dl {
+    text-align: center;
+    margin: 0;
+    padding-top: 0;
+  }
+  .summary-detail dl > * {
+    display: inline;
+  }
+  .summary .summary-detail dt {
+    float: none;
+    clear: none;
+  }
+  .mobile-link {
+    margin-top: 1em;
+    text-align: center;
+    text-decoration: none
+  }
   .subcatch .dodon em {
     font-size: 1.7em;
     font-style: normal;
   }
   .subcatch .all_japan {
-    font-size: 1.8em;
+    font-size: 1.6em;
+    line-height: 1.4;
   }
-
   .subcatch .all_japan em {
-    font-size: 2em;
+    font-size: 1.8em;
     font-style: normal;
   }
   .event .inner-block {
-   padding-left: 0; 
+    padding-left: 0; 
     display: inline;
   }
   .catch {
@@ -985,6 +1032,70 @@ main .desctription section {
   }
   .mobile-link {
     display: block;
+  }
+  .summary .summary-detail {
+    border: none;
+  }
+  .summary .summary-detail dd {
+    font-size: 200%;
+    font-family: 'Anton', sans-serif;
+  }
+  .event-list p {
+    margin: 0.4em 0 0.8em;
+  }
+  #how-to-join ul {
+    padding-left: 1em;
+  }
+  #how-to-join ul li h2 {
+    font-size: 100%;
+    margin: 0;
+  }
+  #how-to-join ul li p {
+    margin-top: 0;
+  }
+  #event h1 {
+    font-size: 120%;
+  }
+  #event ul {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  #event ul li {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+    #event ul li:last-of-type {
+      border: none;
+    }
+  .region {
+    margin-top: 0;
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+  }
+  .region h2 {
+    font-size: 100%;
+    margin-top: 0;
+    border-bottom-width: 3px;
+  }
+  .staff ul {
+    text-align: center;
+  }
+  .entry-button-wrapper a {
+    padding: 1em 0;
+    font-weight: bold;
+    border: 4px solid #ba443a;
+    font-size: 1.2em;
+  }
+  .summary .summary-detail .entry-button-wrapper {
+    padding: 0;
+    padding-bottom: 10px;
+  }
+  .summary .summary-detail .entry-button-wrapper a {
+    padding: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 4px solid #ba443a;
+    margin: 0 10px;
   }
 }
 
