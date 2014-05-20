@@ -1099,8 +1099,15 @@ main .desctription section {
   }
 }
 
-
-
+.award {
+  overflow: hidden;
+}
+.award img {
+  float: left;
+  margin: 0 2em 0 0;
+  max-width: 200px;
+  background: white;
+}
 
 
 
