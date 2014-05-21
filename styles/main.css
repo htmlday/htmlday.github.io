@@ -181,7 +181,7 @@ main h1 {
 main section {
   border-bottom: 1px dotted #aaa;
   margin-top: 2em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 main .desctription section {
   border: none;
@@ -791,6 +791,7 @@ main .desctription section {
   }
 }
 .event {
+  min-height: 160px;
   position: relative;
 }
 
@@ -847,7 +848,7 @@ main .desctription section {
   margin: 0 1em 0 0;
 }
 .event-title {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: bold;
 }
 .event-summary {
@@ -1109,9 +1110,12 @@ main .desctription section {
   background: white;
 }
 
-
-
-
-
-
-
+.no-image {
+  background: white;
+  height: 120px;
+  box-sizing: border-box;
+  padding: 8px;
+  color: #aaa;
+  font-size: 0.9em;
+  vertical-align: middle
+}
