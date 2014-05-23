@@ -51,10 +51,12 @@
   }
 
   function createMarker(evtElm) {
-    var evtName = evtElm.find('.event-name').text(),
+    var evtName = evtElm.find('.event-title').text(),
         evtLat = evtElm.find('.event-lat').text(),
         evtLng = evtElm.find('.event-lng').text(),
         content = createContentHTML(evtElm);
+    console.count('event');
+    console.log(evtName,evtLat,evtLng);
     var mkOptions = {
       icon: ICON_IMAGE,
       shadow: ICON_SHADOW_IMAGE,
