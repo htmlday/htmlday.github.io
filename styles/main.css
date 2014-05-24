@@ -201,14 +201,18 @@ main .desctription section {
   height: 0;
 }
 .summary #map {
-  width: 65%;
+  /*width: 65%;*/
   float: left;
   background-color: #FFF;
-  height: 440px;
+  /*width: 600px;*/
+  width: 60%;
+  height: 468px;
+  box-sizing: border-box;
 }
 .summary .summary-detail {
-  width: 35%;
-  height: 440px;
+  /*width: 35%;*/
+  box-sizing: border-box;
+  height: 500px;
   float: right;
   background-color: #bce0b6;
   /*dl {
@@ -540,6 +544,9 @@ main .desctription section {
   font-size: 1.5em;
   text-align: left;
 }
+#how-to-join h2 {
+  font-size: 1.1em;
+}
 .report img {
   width: 100%;
 }
@@ -791,7 +798,7 @@ main .desctription section {
   }
 }
 .event {
-  min-height: 160px;
+  min-height: 200px;
   position: relative;
 }
 
@@ -975,13 +982,21 @@ main .desctription section {
 */
 
 .summary .summary-detail {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   width: 100%;
-  max-width: 600px;
-  height: auto;
+  /*max-width: 600px;*/
+  /*max-width: 500px;*/
+  /*height: 500px;*/
   box-sizing: border-box;
-  float: none;
-  border: 2em solid #a5d096;
+  /*float: none;*/
+  /*float: left;*/
+  border: 1em solid #a5d096;
+  overflow: hidden;
+}
+.countbox {
+  float: right;
+  /*width: 436px;*/
+  width: 40%;
 }
 .summary .summary-detail dt, .summary .summary-detail dd {
   /*float: none;*/
@@ -1125,6 +1140,9 @@ main .desctription section {
     width: 42px;
     left: -9px;
     top: -6px;
+  }
+  .countbox {
+    width: 100%;
   }
 }
 

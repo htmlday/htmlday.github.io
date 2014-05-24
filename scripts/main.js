@@ -90,7 +90,7 @@
     var wrapper = $('<div>'),
         inner = $('<div class="map-info">'),
         logo = $('<img class="map-logo">').attr('src', evtElm.find('.event-logo').attr('src')),
-        name = $('<p class="map-title">').text(evtElm.find('.event-name').text()),
+        name = $('<p class="map-title">').text(evtElm.find('.event-title').text()),
         link = $('<p class="map-link">').append($('<a class="from-map">詳しく見る</a>').attr('href', '#' + evtElm.attr('id')));
     inner.append(logo);
     inner.append(name);
@@ -117,4 +117,6 @@
   //   });
   // }
 
+  // map.setCenter(new google.maps.LatLng(DEFAULT_LAT, DEFAULT_LNG));
+  window.map = map;
 })();
