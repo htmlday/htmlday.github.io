@@ -11,15 +11,18 @@
   });
 
   // display events count and atendees count
-  var totalEvents = $('#total-events'),
-      totalAtendees = $('#total-atendees'),
-      events = $('.event');
-  var atendeeCount = 0;
-  for ( var i = 0, len = events.length; i < len; i++ ) {
-    atendeeCount += 0 | $(events[i]).find('.event-atendee').text();
-  }
-  totalEvents.text(events.length);
-  totalAtendees.text(atendeeCount);
+  // var totalEvents = $('#total-events'),
+  //     totalAtendees = $('#total-atendees'),
+  //     events = $('.event');
+  // var atendeeCount = 0;
+  // for ( var i = 0, len = events.length; i < len; i++ ) {
+  //   atendeeCount += 0 | $(events[i]).find('.event-atendee').text();
+  // }
+  // totalEvents.text(events.length);
+  // totalAtendees.text(atendeeCount);
+
+  $('#total-events').text(data.length);
+  $('#total-atendees').text(data.atendees);
 
   if ( window.matchMedia("(max-width: 601px)").matches ) {
     return;
@@ -42,21 +45,29 @@
   // put event markers
   var markers = [];
   var activeInfo, activeMarker;
+  // for ( var i = 0, len = events.length; i < len; i++ ) {
+  //   (function(evt){
+  //     setTimeout(function() {
+  //       createMarker(evt);
+  //     }, (i * 200) + 1000);
+  //   })($(events[i]));
+  // }
+  var events = data.events;
   for ( var i = 0, len = events.length; i < len; i++ ) {
     (function(evt){
       setTimeout(function() {
         createMarker(evt);
       }, (i * 200) + 1000);
-    })($(events[i]));
+    })(events[i]);
   }
 
-  function createMarker(evtElm) {
-    var evtName = evtElm.find('.event-title').text(),
-        evtLat = evtElm.find('.event-lat').text(),
-        evtLng = evtElm.find('.event-lng').text(),
-        content = createContentHTML(evtElm);
-    console.count('event');
-    console.log(evtName,evtLat,evtLng);
+  function createMarker(evt) {
+    var evtName = evt.name,
+        evtLat = evt.location.lat,
+        evtLng = evt.location.lng,
+        content = createContentHTML(evt);
+    // console.count('event');
+    // console.log(evtName,evtLat,evtLng);
     var mkOptions = {
       icon: ICON_IMAGE,
       shadow: ICON_SHADOW_IMAGE,
@@ -86,12 +97,12 @@
     })(info, mk);
   }
 
-  function createContentHTML(evtElm) {
+  function createContentHTML(evt) {
     var wrapper = $('<div>'),
         inner = $('<div class="map-info">'),
-        logo = $('<img class="map-logo">').attr('src', evtElm.find('.event-logo').attr('src')),
-        name = $('<p class="map-title">').text(evtElm.find('.event-title').text()),
-        link = $('<p class="map-link">').append($('<a class="from-map">詳しく見る</a>').attr('href', '#' + evtElm.attr('id')));
+        logo = $('<img class="map-logo">').attr('src', evt.image),
+        name = $('<p class="map-title">').text(evt.name),
+        link = $('<p class="map-link">').append($('<a class="from-map">詳しく見る</a>').attr('href', '#' + evt.id));
     inner.append(logo);
     inner.append(name);
     inner.append(link);
