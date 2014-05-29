@@ -52,13 +52,22 @@
   //     }, (i * 200) + 1000);
   //   })($(events[i]));
   // }
-  var events = data.events;
-  for ( var i = 0, len = events.length; i < len; i++ ) {
+  var randomEvents = [],
+      events = data.events,
+      eventsLength = events.length;
+  while (eventsLength) {
+    var num = Math.floor(Math.random()*eventsLength--);
+    // console.log(num);
+    randomEvents.push(events.splice(num,1)[0]);
+  }
+  // console.log(randomEvents);
+  for ( var i = 0, n = randomEvents.length; i < n; i++ ) {
+    // console.log(randomEvents[i].name);
     (function(evt){
       setTimeout(function() {
         createMarker(evt);
       }, (i * 200) + 1000);
-    })(events[i]);
+    })(randomEvents[i]);
   }
 
   function createMarker(evt) {
