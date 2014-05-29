@@ -1,6 +1,6 @@
 var data = {
-  "length": 17,
-  "atendees": 682,
+  "length": 19,
+  "atendees": 777,
   "events": [
     {
       "id": "event-01-01",
@@ -102,6 +102,16 @@ var data = {
       }
     },
     {
+      "id": "event-03-09",
+      "name": "ソフト道場Presents HTML5プロフェッショナル認定資格 特別対策セミナー",
+      "address": "東京都千代田区一ツ橋1-1-1",
+      "image": "images/events/soft-logo.jpg",
+      "location": {
+        "lat": "35.6911754",
+        "lng": "139.7571783"
+      }
+    },
+    {
       "id": "event-05-01",
       "name": "INTER-Mediator勉強会2014-#5@htmlday",
       "address": "京都府京都市南区吉祥院向田西町2",
@@ -169,6 +179,16 @@ var data = {
       "location": {
         "lat": "31.916337",
         "lng": "131.43122"
+      }
+    },
+    {
+      "id": "event-08-03",
+      "name": "GDG九州 feat. HTML5+α @福岡",
+      "address": "福岡市中央区今泉1-20-2 天神MENTビル 8F",
+      "image": "images/events/html5fukuoka.png",
+      "location": {
+        "lat": "33.5865245",
+        "lng": "130.3987268"
       }
     }
   ]
