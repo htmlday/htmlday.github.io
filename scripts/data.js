@@ -1,6 +1,6 @@
 var data = {
-  "length": 20,
-  "atendees": 827,
+  "length": 21,
+  "atendees": 842,
   "events": [
     {
       "id": "event-01-01",
@@ -198,6 +198,16 @@ var data = {
       "location": {
         "lat": "33.5865245",
         "lng": "130.3987268"
+      }
+    },
+    {
+      "id": "event-00-00",
+      "name": "SCC8.5 ～<htmlday>とお茶会@佐賀～",
+      "address": "佐賀市呉服元町2-15",
+      "image": "images/events/saga.jpg",
+      "location": {
+        "lat": "33.2542968",
+        "lng": "130.3035132"
       }
     }
   ]
