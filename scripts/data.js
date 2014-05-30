@@ -1,6 +1,6 @@
 var data = {
-  "length": 19,
-  "atendees": 777,
+  "length": 20,
+  "atendees": 827,
   "events": [
     {
       "id": "event-01-01",
@@ -112,6 +112,15 @@ var data = {
       }
     },
     {
+      "id": "event-00-00",
+      "name": "html5j マークアップ部 htmlday勉強会",
+      "address": "東京都新宿区新宿6-27-30 新宿イーストサイドスクエア5F",
+      "location": {
+        "lat": "35.6967503",
+        "lng": "139.7082101"
+      }
+    },
+    {
       "id": "event-05-01",
       "name": "INTER-Mediator勉強会2014-#5@htmlday",
       "address": "京都府京都市南区吉祥院向田西町2",
@@ -167,8 +176,8 @@ var data = {
       "address": "福岡県福岡市博多区中洲中島町4-12",
       "image": "images/events/logo01.png",
       "location": {
-        "lat": "33.59554",
-        "lng": "130.402304"
+        "lat": "33.5865245",
+        "lng": "130.3987268"
       }
     },
     {
