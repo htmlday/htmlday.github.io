@@ -1,6 +1,6 @@
 var data = {
-  "length": 21,
-  "atendees": 842,
+  "length": 22,
+  "atendees": 852,
   "events": [
     {
       "id": "event-01-01",
@@ -20,6 +20,16 @@ var data = {
       "location": {
         "lat": "37.40026",
         "lng": "140.388184"
+      }
+    },
+    {
+      "id": "event-02-02",
+      "name": "第8回 concrete5 青森ユーザーグループ勉強会",
+      "address": "青森県八戸市売市長根12-1",
+      "image": "images/events/c5_aomori-UG_2014_htmlday.jpg",
+      "location": {
+        "lat": "40.5129142",
+        "lng": "141.4804413"
       }
     },
     {
