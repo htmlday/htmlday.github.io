@@ -1,6 +1,6 @@
 var data = {
-  "length": 22,
-  "atendees": 852,
+  "length": 23,
+  "atendees": 857,
   "events": [
     {
       "id": "event-01-01",
@@ -122,12 +122,22 @@ var data = {
       }
     },
     {
-      "id": "event-00-00",
+      "id": "event-03-10",
       "name": "html5j マークアップ部 htmlday勉強会",
       "address": "東京都新宿区新宿6-27-30 新宿イーストサイドスクエア5F",
       "location": {
         "lat": "35.6967503",
         "lng": "139.7082101"
+      }
+    },
+    {
+      "id": "event-03-11",
+      "name": "秋葉原Cocos2d-JSもくもく勉強会#7",
+      "address": "東京都千代田区岩本町2-10-9　手塚ビル7F",
+      "image": "images/events/cc_mokumoku_icon.png",
+      "location": {
+        "lat": "35.6934787",
+        "lng": "139.7774888"
       }
     },
     {
