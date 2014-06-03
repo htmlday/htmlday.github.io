@@ -1,6 +1,6 @@
 var data = {
   "length": 23,
-  "atendees": 857,
+  "atendees": 867,
   "events": [
     {
       "id": "event-01-01",
