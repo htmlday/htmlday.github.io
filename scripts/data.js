@@ -1,6 +1,6 @@
 var data = {
-  "length": 23,
-  "atendees": 867,
+  "length": 25,
+  "atendees": 920,
   "events": [
     {
       "id": "event-01-01",
@@ -30,6 +30,16 @@ var data = {
       "location": {
         "lat": "40.5129142",
         "lng": "141.4804413"
+      }
+    },
+    {
+      "id": "event-02-03",
+      "name": "cPalette夏のHTML5祭り\"冷やしWeb勉強会、始めました\"",
+      "address": "福島県須賀川市西の内町125",
+      "image": "images/events/cpalette_logo.png",
+      "location": {
+        "lat": "37.2963537",
+        "lng": "140.3565305"
       }
     },
     {
@@ -138,6 +148,16 @@ var data = {
       "location": {
         "lat": "35.6934787",
         "lng": "139.7774888"
+      }
+    },
+    {
+      "id": "event-03-12",
+      "name": "これで最後の！HTML5 Japan Cup 2014 公式ハッカソン at  2014",
+      "address": "東京都渋谷区道玄坂1-14-6 ヒューマックス渋谷ビル3F",
+      "image": "images/html5JC_logo.png",
+      "location": {
+        "lat": "35.6573034",
+        "lng": "139.6982771"
       }
     },
     {
