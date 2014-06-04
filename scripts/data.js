@@ -1,6 +1,6 @@
 var data = {
-  "length": 25,
-  "atendees": 920,
+  "length": 26,
+  "atendees": 950,
   "events": [
     {
       "id": "event-01-01",
@@ -161,6 +161,16 @@ var data = {
       }
     },
     {
+      "id": "event-03-13",
+      "name": "トークセッション・ビギナーの勉強方法を考えよう！",
+      "address": "東京都千代田区神田駿河台4-6",
+      "image": "images/events/icatch_text_logo.png",
+      "location": {
+        "lat": "35.6986248",
+        "lng": "139.7667025"
+      }
+    },
+    {
       "id": "event-05-01",
       "name": "INTER-Mediator勉強会2014-#5@htmlday",
       "address": "京都府京都市南区吉祥院向田西町2",
@@ -241,7 +251,7 @@ var data = {
       }
     },
     {
-      "id": "event-00-00",
+      "id": "event-08-04",
       "name": "SCC8.5 ～<htmlday>とお茶会@佐賀～",
       "address": "佐賀市呉服元町2-15",
       "image": "images/events/saga.jpg",
