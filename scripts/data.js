@@ -1,6 +1,6 @@
 var data = {
-  "length": 26,
-  "atendees": 950,
+  "length": 28,
+  "atendees": 955,
   "events": [
     {
       "id": "event-01-01",
@@ -152,7 +152,7 @@ var data = {
     },
     {
       "id": "event-03-12",
-      "name": "これで最後の！HTML5 Japan Cup 2014 公式ハッカソン at  2014",
+      "name": "これで最後の！HTML5 Japan Cup 2014 公式ハッカソン at <htmlday> 2014",
       "address": "東京都渋谷区道玄坂1-14-6 ヒューマックス渋谷ビル3F",
       "image": "images/html5JC_logo.png",
       "location": {
@@ -168,6 +168,15 @@ var data = {
       "location": {
         "lat": "35.6986248",
         "lng": "139.7667025"
+      }
+    },
+    {
+      "id": "event-03-14",
+      "name": "html5を使ってウェブアプリを作ろう！ハッカソン@7F",
+      "address": "埼玉県さいたま市大宮区宮町1-5 銀座ビル",
+      "location": {
+        "lat": "35.9076941",
+        "lng": "139.6247882"
       }
     },
     {
@@ -218,6 +227,15 @@ var data = {
       "location": {
         "lat": "34.408548",
         "lng": "132.448378"
+      }
+    },
+    {
+      "id": "event-07-01",
+      "name": " 2014 in Tokushima",
+      "address": "徳島県徳島市徳島町城内2-1",
+      "location": {
+        "lat": "34.070162",
+        "lng": "134.5562465"
       }
     },
     {
