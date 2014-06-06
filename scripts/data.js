@@ -1,6 +1,6 @@
 var data = {
-  "length": 28,
-  "atendees": 955,
+  "length": 29,
+  "atendees": 975,
   "events": [
     {
       "id": "event-01-01",
@@ -14,12 +14,12 @@ var data = {
     },
     {
       "id": "event-02-01",
-      "name": "htmlday 2014 in Fukushima（仮）",
-      "address": "福島県郡山市駅前2-11-1　ビッグアイ7階",
+      "name": "エフスタガールズデイ！働くオンナのサバイバル作戦vol.1",
+      "address": "福島県郡山市駅前2-11-1 ビッグアイ7階",
       "image": "images/events/efsta1.jpg",
       "location": {
-        "lat": "37.40026",
-        "lng": "140.388184"
+        "lat": "37.3996024",
+        "lng": "140.3881648"
       }
     },
     {
@@ -210,6 +210,16 @@ var data = {
       }
     },
     {
+      "id": "event-05-04",
+      "name": "◯◯.jsを語る会@Camphor-",
+      "address": "京都府京都市左京区吉田牛ノ宮町16",
+      "image": "images/events/js.jpg",
+      "location": {
+        "lat": "35.02489630000001",
+        "lng": "135.7769091"
+      }
+    },
+    {
       "id": "event-06-01",
       "name": "第25回GDG中国勉強会＠岡山（仮）",
       "address": "",
@@ -231,7 +241,7 @@ var data = {
     },
     {
       "id": "event-07-01",
-      "name": " 2014 in Tokushima",
+      "name": "<htmlday> 2014 in Tokushima",
       "address": "徳島県徳島市徳島町城内2-1",
       "location": {
         "lat": "34.070162",
