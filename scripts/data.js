@@ -1,6 +1,6 @@
 var data = {
-  "length": 29,
-  "atendees": 975,
+  "length": 30,
+  "atendees": 1005,
   "events": [
     {
       "id": "event-01-01",
@@ -217,6 +217,15 @@ var data = {
       "location": {
         "lat": "35.02489630000001",
         "lng": "135.7769091"
+      }
+    },
+    {
+      "id": "event-05-05",
+      "name": "Node.js大阪 勉強会",
+      "address": "大阪市中央区安土町1丁目8番15号 野村不動産大阪ビル 3F",
+      "location": {
+        "lat": "34.684688",
+        "lng": "135.5070019"
       }
     },
     {
