@@ -1,6 +1,6 @@
 var data = {
-  "length": 30,
-  "atendees": 1010,
+  "length": 31,
+  "atendees": 1016,
   "events": [
     {
       "id": "event-01-01",
@@ -229,7 +229,7 @@ var data = {
       }
     },
     {
-      "id": "event-00-00",
+      "id": "event-06-01",
       "name": "Golang Cafe #34",
       "address": "岡山県岡山市北区青江1-12-12",
       "image": "images/events/GDG_Chugoku_site_org.png",
@@ -291,6 +291,16 @@ var data = {
       "id": "event-08-04",
       "name": "SCC8.5 ～<htmlday>とお茶会@佐賀～",
       "address": "佐賀市呉服元町2-15",
+      "image": "images/events/saga.jpg",
+      "location": {
+        "lat": "33.2542968",
+        "lng": "130.3035132"
+      }
+    },
+    {
+      "id": "event-08-05",
+      "name": "SCC Web Components+Polymer Hackathon",
+      "address": "佐賀県佐賀市呉服元町2-15",
       "image": "images/events/saga.jpg",
       "location": {
         "lat": "33.2542968",
