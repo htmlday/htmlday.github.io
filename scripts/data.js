@@ -1,6 +1,6 @@
 var data = {
   "length": 30,
-  "atendees": 1005,
+  "atendees": 1010,
   "events": [
     {
       "id": "event-01-01",
@@ -229,13 +229,13 @@ var data = {
       }
     },
     {
-      "id": "event-06-01",
-      "name": "第25回GDG中国勉強会＠岡山（仮）",
-      "address": "",
+      "id": "event-00-00",
+      "name": "Golang Cafe #34",
+      "address": "岡山県岡山市北区青江1-12-12",
       "image": "images/events/GDG_Chugoku_site_org.png",
       "location": {
-        "lat": "",
-        "lng": ""
+        "lat": "34.6348369",
+        "lng": "133.9204162"
       }
     },
     {
