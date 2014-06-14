@@ -1,6 +1,6 @@
 var data = {
-  "length": 31,
-  "atendees": 1016,
+  "length": 32,
+  "atendees": 1026,
   "events": [
     {
       "id": "event-01-01",
@@ -305,6 +305,16 @@ var data = {
       "location": {
         "lat": "33.2542968",
         "lng": "130.3035132"
+      }
+    },
+    {
+      "id": "event-08-06",
+      "name": "<htmlday>HTML5カルタ取り＆女子LT大会！",
+      "address": "鹿児島市大黒町",
+      "image": "images/events/html5jkagosima.jpg",
+      "location": {
+        "lat": "31.5905737",
+        "lng": "130.5581631"
       }
     }
   ]
