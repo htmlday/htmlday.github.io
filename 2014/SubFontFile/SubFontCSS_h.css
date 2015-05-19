@@ -1,0 +1,28 @@
+@charset UTF-8;
+/* =========================================== */
+/* フォント定義 fontplus */
+@font-face {
+    font-family: 'FOT-ニューロダン Pro B';
+    src: url('./d53e218f155337c4361d3eb3d110325a4e7bb73f') format('woff'),
+         url('./969be0895f7b71c8c6d46d28ae8844d909ac916d') format('opentype'),
+         url('./087ccf7daffc136f4ef42d03dc9475ab6c3f2dfd') format('truetype'),
+         url('./5a021fdf721d797e982799dc01b34d28815d693d#FontPlus') format('svg');
+    src: url('./96b7f0965b4d1f48acbd5bd8de0e485fdec64a12')\9;
+}
+@font-face {
+    font-family: 'I-OTF-UD新聞明朝Pro Mp';
+    src: url('./c7467438d3f669395d211d949fb3ea60ca7538eb') format('woff'),
+         url('./1c0aed7432fdf7e50a8d53a12e167bf3192db09b') format('opentype'),
+         url('./612f60c42e6b9bd9da20880777e4eea52595dffa') format('truetype'),
+         url('./ab9216bb6d5d0d4a9347d85a38e63671e29163b6#FontPlus') format('svg');
+    src: url('./82ab7be05ed71fb3e3a94b02eadd3765e1ba604c')\9;
+}
+@font-face {
+    font-family: 'F+UD-筑紫明朝 E';
+    src: url('./d278675a6ae5494aa88bfa2e2d261c781aea8462') format('woff'),
+         url('./53ba54580dd8c01737047442fd1a0891dda7102a') format('opentype'),
+         url('./750274bf0bdc556ce916ec207acfccb887ea66ff') format('truetype'),
+         url('./0b601891e39e9da51f0a94020db9b60b8aa0f8a6#FontPlus') format('svg');
+    src: url('./7828c5a29d545d8f6f5b67be463cab19d2d5de32')\9;
+}
+/* =========================================== */
