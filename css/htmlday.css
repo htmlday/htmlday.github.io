@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'din1451alt';
-  src: url("../css/din1451alt.ttf") format("truetype"); }
+  src: url('../css/din1451alt.ttf') format('truetype'); }
 
 .btn {
   background-color: #540023;
@@ -200,28 +200,22 @@ header p {
       padding-right: 1rem; }
     #how-to-join .how_inner > section:last-of-type {
       padding-left: 1rem; }
-
 #how-to-join h2 {
   font-size: 90%; }
-
 #how-to-join article {
   font-size: 80%; }
 
 #event > section {
   font-size: 80%; }
-
 #event section p {
   margin-top: 0; }
-
 #event .event-title {
   font-weight: bold;
   clear: both; }
-
 #event ul, #event dt, #event dd, #event dl {
   margin: 0;
   padding: 0;
   list-style-type: none; }
-
 #event li {
   background-color: rgba(255, 255, 255, 0.9);
   border: 1px solid #ddd;
@@ -246,10 +240,8 @@ header p {
     #event li .inner-block dt {
       margin-right: 0.4em;
       clear: left; }
-
 #event .location {
   display: none; }
-
 #event .region h2 {
   clear: both; }
 
@@ -374,6 +366,7 @@ footer {
         content: ''; }
   #staff_list .staff-list li {
     width: 30%;
+    min-width: 0;
     margin: 0 0 0.6em 0; }
     #staff_list .staff-list li span {
       font-size: 60%; } }
