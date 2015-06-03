@@ -244,6 +244,19 @@ header p {
   display: none; }
 #event .region h2 {
   clear: both; }
+#event .pre-events li > a {
+  width: 15%; }
+#event .pre-events li .inner-block {
+  width: 85%;
+  padding: 0 0 0 1em; }
+  #event .pre-events li .inner-block .event-summary dt, #event .pre-events li .inner-block .event-summary dd {
+    display: inline;
+    float: none;
+    margin: 0; }
+  #event .pre-events li .inner-block .event-summary dt::before {
+    content: ' | '; }
+  #event .pre-events li .inner-block .event-summary dt:first-child::before {
+    content: ''; }
 
 .host ul, .cooperation ul, .staff ul {
   list-style-type: none;
