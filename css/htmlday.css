@@ -249,6 +249,8 @@ header p {
 #event .pre-events li .inner-block {
   width: 85%;
   padding: 0 0 0 1em; }
+  #event .pre-events li .inner-block p, #event .pre-events li .inner-block dl {
+    margin-bottom: 0.5em; }
   #event .pre-events li .inner-block .event-summary dt, #event .pre-events li .inner-block .event-summary dd {
     display: inline;
     float: none;
