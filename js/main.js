@@ -61,15 +61,18 @@
   // put event markers
   var markers = [];
   var activeInfo, activeMarker;
+  events = shuffle(events);
   for ( var i = 0, len = events.length; i < len; i++ ) {
     (function(evt){
       setTimeout(function() {
         createMarker(evt);
-      }, (i * 200) + 1000);
+      }, (i * 200) + 2000);
     })($(events[i]));
   }
 
+
   function createMarker(evtElm) {
+    console.log('createMarker');
     var evtName = evtElm.find('.event-title').text(),
         evtLat = evtElm.find('.event-lat').text(),
         evtLng = evtElm.find('.event-lng').text(),
@@ -114,6 +117,14 @@
     inner.append(link);
 
     return wrapper.append(inner).html();
+  }
+
+  function shuffle(array) {
+    var random = array.map(Math.random);
+    array.sort(function(a, b) {
+      return random[a] - random[b];
+    });
+    return array;
   }
 
   // function setMarker(evtName, evtAdds, map) {
